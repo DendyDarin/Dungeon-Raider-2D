@@ -56,5 +56,11 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Dungeon Raider.sln"
+    "dotnet.defaultSolution": "Dungeon Raider.sln",
+    "javascript.referencesCodeLens.enabled": false,
+    "javascript.referencesCodeLens.showOnAllFunctions": false,
+    "typescript.implementationsCodeLens.enabled": false,
+    "typescript.referencesCodeLens.enabled": false,
+    "typescript.referencesCodeLens.showOnAllFunctions": false,
+    "dotnet.codeLens.enableReferencesCodeLens": true
 }
