@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51401
+56297
 Successfully changed project path to: /Users/darin/GameDev/Dungeon Raider
 /Users/darin/GameDev/Dungeon Raider
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/darin/GameDev/Dungeon Raider
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7944232640] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 2356809054 [EditorId] 2356809054 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7944232640] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1455466740 [EditorId] 1455466740 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7944232640] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 2356809054 [EditorId] 2356809054 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7944232640] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1455466740 [EditorId] 1455466740 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 17.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 17.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,34 +76,34 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56622
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56907
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001556 seconds.
-- Loaded All Assemblies, in  0.266 seconds
+Registered in 0.002039 seconds.
+- Loaded All Assemblies, in  0.267 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.147 seconds
-Domain Reload Profiling: 413ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.144 seconds
+Domain Reload Profiling: 411ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (100ms)
-		LoadAssemblies (100ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
+		AnalyzeDomain (96ms)
 			TypeCache.Refresh (96ms)
 				TypeCache.ScanAssembly (84ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (147ms)
+	FinalizeReload (144ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (109ms)
@@ -112,8 +112,8 @@ Domain Reload Profiling: 413ms
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,56 +121,56 @@ Domain Reload Profiling: 413ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.522 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.537 seconds
-Domain Reload Profiling: 1062ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (73ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (351ms)
-		LoadAssemblies (241ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
+		AnalyzeDomain (154ms)
 			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (116ms)
+				TypeCache.ScanAssembly (107ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (538ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (497ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
+		SetupLoadedEditorAssemblies (388ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (320ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.30 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5663 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (0.5 MB). Loaded Objects now: 6116.
-Memory consumption went from 234.3 MB to 233.8 MB.
-Total: 5.299125 ms (FindLiveObjects: 0.617458 ms CreateObjectMapping: 0.183708 ms MarkObjects: 3.643083 ms  DeleteObjects: 0.851667 ms)
+Unloading 5827 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (0.6 MB). Loaded Objects now: 6279.
+Memory consumption went from 238.1 MB to 237.6 MB.
+Total: 3.997375 ms (FindLiveObjects: 0.194834 ms CreateObjectMapping: 0.103083 ms MarkObjects: 3.414375 ms  DeleteObjects: 0.284583 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,505 +187,265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 149981.089602 seconds.
-  path: Assets/Scripts/NodeGraph/RoomNodeGraphSO.cs
-  artifactKey: Guid(b79c005b230394a19a22a1e71aa3c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NodeGraph/RoomNodeGraphSO.cs using Guid(b79c005b230394a19a22a1e71aa3c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033da55f723243de3d91e7d9df92f1c1') in 0.013626 seconds
+  Time since last request: 188657.963664 seconds.
+  path: Packages/com.unity.textmeshpro
+  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab18477cf259f7e6f67d17b85f81f85') in 0.003331 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x2afc87000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.407 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.254 seconds
-Domain Reload Profiling: 1662ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (241ms)
-		LoadAssemblies (202ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (73ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1255ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (489.6 KB). Loaded Objects now: 6122.
-Memory consumption went from 215.8 MB to 215.3 MB.
-Total: 3.621750 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.089667 ms MarkObjects: 3.110750 ms  DeleteObjects: 0.207792 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 618.583890 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a443876f2b8bb1052bd7c15c8847eea8') in 0.041248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 492.043882 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362afa040f29b3e717fd85dde0b6e38f') in 0.017120 seconds
+  Time since last request: 1582.044967 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ea3ec08f87d0c95372493fb5da0327') in 0.619401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf990131adb78766459b8a5c0c956fb') in 0.006916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f1996806fe7872fdb19bc3c20882a0') in 0.008555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9875772e486af4ed7bc9b7e53a216c') in 0.100628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
+  artifactKey: Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph using Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c37892a7e3e78e801e40f6ea8da31f') in 0.688451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b9119f704a70bff3bcb40d3c563f01') in 0.006886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CourseAssets/Materials/Enemy/Shader Graphs_EnemyMaterialise_Green.mat
+  artifactKey: Guid(2203edc4d7bb7d54d902153ccd995f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Enemy/Shader Graphs_EnemyMaterialise_Green.mat using Guid(2203edc4d7bb7d54d902153ccd995f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a30feb46792ce9b65fbf83f7a8f5e22') in 0.181099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d12860284ec021ae14fca0f80da57e') in 0.119945 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.933772 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cd290af86d9195922eda7e6e505ba9') in 0.002297 seconds
+  Time since last request: 0.000077 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cce3e15ee915982b72ef40096d42ba0') in 0.006231 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 8.054229 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6a3027f5b5934e8b92561f68328e88') in 0.001481 seconds
+  Time since last request: 0.000184 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4337d0f13c09f8d84afc6f051d28d772') in 0.005866 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x281cfb000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.449 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.098 seconds
-Domain Reload Profiling: 1547ms
-	BeginReloadAssembly (125ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (279ms)
-		LoadAssemblies (277ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1098ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (287ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (489.7 KB). Loaded Objects now: 6128.
-Memory consumption went from 222.4 MB to 222.0 MB.
-Total: 2.909250 ms (FindLiveObjects: 0.175958 ms CreateObjectMapping: 0.082542 ms MarkObjects: 2.462458 ms  DeleteObjects: 0.187875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 8405.342691 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c365d2acbd2ed519760ddad6b95278') in 0.024145 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01117d2ed4fb5d5a02fd6fdb93f79d42') in 0.091147 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 7.800843 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140cbe5ca4d1520f1ecb394dd21e549d') in 0.001714 seconds
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd699d6c7ff2bf73f009d830b2d713e07') in 0.010571 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 21.221973 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea783f97621360db09b72c488db1ad12') in 0.006305 seconds
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
+  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fde9aba0b0948c34122feeb3512117') in 0.278364 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 13.830537 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a5bd1a04a22c9aef4bc0da1e5f0e94') in 0.003680 seconds
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade5693083527a83f2e0d424dd90d64') in 0.006978 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 114.458233 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bce6dfc832ff89d14be73e0e870063d') in 0.006853 seconds
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bbd177ecdfacd3867cf83306bf1b48') in 0.006285 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 15.028089 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b07ca94f27977b48ecf874dff5ed881') in 0.002111 seconds
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146cd3692cc701efd84e1e5a055abafc') in 0.005317 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 43.626019 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f518b588f99c816d4478e7bb1200896a') in 0.007761 seconds
+  Time since last request: 0.000074 seconds.
+  path: Assets/CourseAssets/Fonts/dlxfont.ttf
+  artifactKey: Guid(b88d2d65f822f874c995271ef43f2607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Fonts/dlxfont.ttf using Guid(b88d2d65f822f874c995271ef43f2607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85483e99e84d35f682f83dc3d89de1e') in 0.004690 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 18.971528 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d917f7416a5007953255cdf7af721b0') in 0.003542 seconds
+  Time since last request: 1.844228 seconds.
+  path: Assets/CourseAssets/Materials/Ammo/Ammo_GreenEmissionShader.mat
+  artifactKey: Guid(33a55999e44f4724191171c59fc64319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Ammo/Ammo_GreenEmissionShader.mat using Guid(33a55999e44f4724191171c59fc64319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2885848007754e1c753cc375044e47') in 0.157198 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 5.825531 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ac1a07c8f26a14e721afaa66471d5d') in 0.002129 seconds
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
+  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a41693fda15b338ac988d204c3dda06') in 0.250140 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 22.695087 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6eebc3a28523e80a6552ed99f0da5c') in 0.005243 seconds
+  Time since last request: 0.000053 seconds.
+  path: Assets/CourseAssets/Materials/Ammo/AmmoRed_EmissionShader.mat
+  artifactKey: Guid(a8f373dc317a30d40a68b73a78ce1d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Ammo/AmmoRed_EmissionShader.mat using Guid(a8f373dc317a30d40a68b73a78ce1d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64428c3e4f0a11bda2f70a491a7ba179') in 0.005193 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 9.517167 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0357899a51e34dc1a15650b92efaef40') in 0.004406 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/CourseAssets/Materials/Dungeon/DungeonLightShader_Variable.mat
+  artifactKey: Guid(a4ea43fe7ddf099428e90d7b7ac44139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Dungeon/DungeonLightShader_Variable.mat using Guid(a4ea43fe7ddf099428e90d7b7ac44139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3370e61cf8de2b13f5341912f0b6f1b9') in 0.161676 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 7.872995 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd82bcc6dac6f9e9949c08c186ad005') in 0.002083 seconds
+  Time since last request: 0.000070 seconds.
+  path: Assets/CourseAssets/Materials/Dungeon/FlameShaderMaterial 1.mat
+  artifactKey: Guid(add26dd5fdc48e44c9a8298ec4929141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Dungeon/FlameShaderMaterial 1.mat using Guid(add26dd5fdc48e44c9a8298ec4929141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0434c23cfbe9685b879b7e9bc25c5bc9') in 0.207780 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 42.011782 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd77cb2e86c6d0ebd6b9797747ab9f6d') in 0.009613 seconds
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff7395f28ea45d6fe55222561fe00dc') in 0.297117 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16fa37000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.377 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.132 seconds
-Domain Reload Profiling: 1510ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (210ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1132ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (489.7 KB). Loaded Objects now: 6133.
-Memory consumption went from 229.0 MB to 228.6 MB.
-Total: 3.336833 ms (FindLiveObjects: 0.222458 ms CreateObjectMapping: 0.119208 ms MarkObjects: 2.783000 ms  DeleteObjects: 0.211583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 15569.202673 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b5c0af0be28bf4576e4a8299c195f2') in 0.023395 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/CourseAssets/Materials/Ammo/AmmoGold_EmissionShader.mat
+  artifactKey: Guid(5c86445c1f630c141ab88b05539eca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Ammo/AmmoGold_EmissionShader.mat using Guid(5c86445c1f630c141ab88b05539eca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6bcbaf3e6908a2f0cfd448f98a7c48') in 0.004924 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 7.187549 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd240374fb0c6261bb62c1e8f85fbee') in 0.001890 seconds
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph
+  artifactKey: Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph using Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4609dbce1b17e27c64b6329528e88c') in 0.008140 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.751946 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2744af1d80f77c357d2a7f677aaa9ef7') in 0.001946 seconds
+  Time since last request: 0.000104 seconds.
+  path: Assets/CourseAssets/Materials/Ammo/Ammo_RocketEmmisionShader.mat
+  artifactKey: Guid(42c61dd66eb4e8c4a916ce83d7fbd680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Ammo/Ammo_RocketEmmisionShader.mat using Guid(42c61dd66eb4e8c4a916ce83d7fbd680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc33ce0ac37d70c4499edc6c3ed61c1') in 0.004759 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 6.034966 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef9d636159d8a0fcefd9a3ee02dceda') in 0.002031 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/CourseAssets/Materials/Ammo/AmmoGreen_Charge_EmissionShader.mat
+  artifactKey: Guid(8906ff5d458c0ba4d8d1d0177dfd5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CourseAssets/Materials/Ammo/AmmoGreen_Charge_EmissionShader.mat using Guid(8906ff5d458c0ba4d8d1d0177dfd5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83899c534f6372902780c0de9eb1e60c') in 0.004319 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 5.402896 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877f2c72f2d23bb9c15797c46209921b') in 0.001704 seconds
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph
+  artifactKey: Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph using Guid(80aa867ac363ac043847b06ad71604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0704515137ffad132ed32e90182f4a7a') in 0.278038 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 24.361875 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309932fca29453df799c5fd60728796b') in 0.004791 seconds
+  Time since last request: 323.763044 seconds.
+  path: Assets/Prefabs/Dungeon
+  artifactKey: Guid(1d2a9e07037f649d3be8bf002176b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon using Guid(1d2a9e07037f649d3be8bf002176b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e6598d77921c1f5fbfca576207467') in 0.001233 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 14.066325 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc011319d0dc58e8afa1bfbd017edc68') in 0.007371 seconds
+  Time since last request: 7.620586 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms
+  artifactKey: Guid(56b53af7c90ac4cc9bba33959def2830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms using Guid(56b53af7c90ac4cc9bba33959def2830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef46877db098d88bfd6387a1370fcd1') in 0.000343 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 46.538895 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58639b81ef5b6028378980de5d8544be') in 0.009620 seconds
+  Time since last request: 23.321063 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/RoomTemplate.prefab
+  artifactKey: Guid(35fe6a306fb3e451ea79310def0dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/RoomTemplate.prefab using Guid(35fe6a306fb3e451ea79310def0dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcb80e1bc03fe1bbd95d184f45447cf') in 0.581939 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16fa37000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.392 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.972 seconds
-Domain Reload Profiling: 1364ms
-	BeginReloadAssembly (112ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (225ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (44ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (972ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (286ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (201ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (489.9 KB). Loaded Objects now: 6138.
-Memory consumption went from 235.7 MB to 235.2 MB.
-Total: 3.094583 ms (FindLiveObjects: 0.211042 ms CreateObjectMapping: 0.089583 ms MarkObjects: 2.593125 ms  DeleteObjects: 0.200292 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2726.699313 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b569e8c7d3b1c8b22640b3d8f92dc2c') in 0.028582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 6.498035 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264b87be965624c0e35a55cc0939c0d3') in 0.001569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 8.308134 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96485a0f47f19904327a87c35116d0e8') in 0.001910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 6.425854 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7e664ec647b4e0699c645cbd49be9c') in 0.001670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 157.386287 seconds.
-  path: Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset
-  artifactKey: Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjectAssets/Dungeon/DungeonRoomNodeGraphs/RoomNodeGraph.asset using Guid(d12d0a95988f04af1ae1948718538b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff14786826f5e25f17f2cbbc81fb47d0') in 0.032567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 40
