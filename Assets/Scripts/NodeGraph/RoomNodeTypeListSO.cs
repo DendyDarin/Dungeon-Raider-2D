@@ -18,7 +18,7 @@ public class RoomNodeTypeListSO : ScriptableObject
     #region Validation
 #if UNITY_EDITOR
     private void OnValidate() {
-        HelperUtilities.ValidateCheckEnumerableValue(this, nameof(list), list);
+        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(list), list);
     }
 #endif
     #endregion
