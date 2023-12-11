@@ -10,29 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13dfdc420926041529cf2a24e15e872c, type: 3}
-  m_Name: DungeonLevel_Level1
+  m_Name: DungeonLevel_Level2
   m_EditorClassIdentifier: 
-  levelName: The Hall of Heroes
+  levelName: The Shadow Crypt
   roomTemplateList:
   - {fileID: 11400000, guid: 3cdc996eae718644dad8dad24ae2c39f, type: 2}
+  - {fileID: 11400000, guid: 03fb8e6e180566844b9c3942a093676e, type: 2}
+  - {fileID: 11400000, guid: 5e10298487db4a548a9e425ea037c915, type: 2}
+  - {fileID: 11400000, guid: 9927e94b574775f4c83d6ac8ef1a7ea1, type: 2}
   - {fileID: 11400000, guid: 17aab39e60e31b44cbb99c260366f725, type: 2}
   - {fileID: 11400000, guid: 75e9ed4d33bf76c439c799075b936c76, type: 2}
   - {fileID: 11400000, guid: 58168ebb0df392f41b061a0c6b25da05, type: 2}
   - {fileID: 11400000, guid: 74c9dcaed5ec2f949878a19a2067a840, type: 2}
   - {fileID: 11400000, guid: 8560fcec9e5cd454aae62d7775c44da1, type: 2}
   - {fileID: 11400000, guid: 1d5c4c4b7468b7749bced9ffcf6799be, type: 2}
+  - {fileID: 11400000, guid: 5ec7c3fd29261984abd0f0a91400645d, type: 2}
+  - {fileID: 11400000, guid: 162bb1ef7e418cb45b8a9972883291e2, type: 2}
+  - {fileID: 11400000, guid: 441b01f46e3eeb442ade8694ca990dae, type: 2}
   - {fileID: 11400000, guid: a513c365c6072fa4c9068779c5d2173e, type: 2}
   - {fileID: 11400000, guid: a1c147aa88a50d64dbc012a46f5d011c, type: 2}
+  - {fileID: 11400000, guid: ffb5abf059fa3cb4187f05ee5225308f, type: 2}
   - {fileID: 11400000, guid: 1cbc835c305513640970724d8b4d26ef, type: 2}
   - {fileID: 11400000, guid: 6de62b1aab2953146a354bd9e5f255d0, type: 2}
   - {fileID: 11400000, guid: ca3ebf2399132f74589db4539c90168f, type: 2}
-  - {fileID: 11400000, guid: 5ec7c3fd29261984abd0f0a91400645d, type: 2}
-  - {fileID: 11400000, guid: 441b01f46e3eeb442ade8694ca990dae, type: 2}
-  - {fileID: 11400000, guid: 5e10298487db4a548a9e425ea037c915, type: 2}
   - {fileID: 11400000, guid: b497cf51860cc124088acdf3dfcc4bdc, type: 2}
+  - {fileID: 11400000, guid: aeaa238dda2b934409291731e7646e39, type: 2}
   roomNodeGraphList:
-  - {fileID: 11400000, guid: 1e00d71f868e14ef5815610e26a22ca1, type: 2}
-  - {fileID: 11400000, guid: 19c871bce57174d00935edd5eb2379e1, type: 2}
-  - {fileID: 11400000, guid: 822d4c1d021664987abd4c9f71e8e41d, type: 2}
-  - {fileID: 11400000, guid: d50ed0174f7bd44148352fcae7b067df, type: 2}
-  - {fileID: 11400000, guid: b099d4279c2854bdebedad30d9c0dc96, type: 2}
+  - {fileID: 11400000, guid: 002316f0186f4439ca167f256542da63, type: 2}
+  - {fileID: 11400000, guid: 464ce7223e3e6434a8391ec567d3d871, type: 2}
+  - {fileID: 11400000, guid: db34398103bdc44bebbade87ba737bd3, type: 2}
+  - {fileID: 11400000, guid: 92dea103d66bc4ff9946463182fa53fe, type: 2}
+  - {fileID: 11400000, guid: c6418d766f627486bbe4cc2148839785, type: 2}
